@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="Outland_BannerBase">
+		<defName>Outland_VathunBanner</defName>
+		<label>vathun banner</label>
+		<description>Simple decorative banner, with enough space on it for a symbol.</description>
+		<graphicData>
+			<texPath>Outland/Vathun/Buildings/Banner</texPath>
+			<drawSize>(4, 4)</drawSize>
+            <drawOffset>(0, 0, 0)</drawOffset>
+		</graphicData>
+		<size>(2, 1)</size>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="TabulaRasa.CompProperties_IdeoIconOverlay">
+				<showSouth>true</showSouth>
+				<showNorth>true</showNorth>
+				<showEast>false</showEast>
+				<showWest>false</showWest>
+				
+				<offsetNorth>(0, 1, 0.5)</offsetNorth>
+				<offsetSouth>(0, 1, 0.5)</offsetSouth>
+
+				<drawSize>(0.5, 0.5)</drawSize>
+			</li>
+		</comps>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatDecoration</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

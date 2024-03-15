@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>Outland_Faun</defName>
+		<label>faun</label>
+		<description>A humanoid sentient species sharing many characteristics with that of a deer. They generally have a subservient nature to them which led to a complicated hierarchy based society where several tiers of noble class exist, each one ruling those below them. Their physical attributes make them agile however they suffer from a weaker immune system than most.</description>
+		<descriptionShort>A humanoid sentient species sharing many characteristics with that of a deer.</descriptionShort>
+		<iconPath>Outland/Vathun/XenotypeIcons/Xenotype_Faun</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_Ears_Doe</li>
+			<li>Outland_HoovedFeet</li>
+			<li>Outland_Submissive</li>
+			<li>Outland_Breedable</li>
+			<li>Outland_BumFluff</li>
+			<li>Outland_Headbone_Raffe</li>
+			<li>Outland_Headbone_LongProng</li>
+			<li>Outland_Headbone_Heart</li>
+			<li>Outland_Headbone_Fawn</li>
+			<li>Hair_DarkReddish</li>
+			<li>Hair_ReddishBrown</li>
+			<li>Hair_DarkBrown</li>
+			<li>Immunity_Weak</li>
+			<li>Outland_ArcaneAffinity_SmallIncrease</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>
