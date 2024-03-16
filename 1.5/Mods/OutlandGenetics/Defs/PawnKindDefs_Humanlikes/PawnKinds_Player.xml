@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>Outland_VathunPeasant_Player</defName>
+		<label>vathun peasant</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Faun>999</Outland_Faun>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_PlayerVathun</defaultFactionType>
+		<backstoryCategories>
+			<li>Tribal</li>
+		</backstoryCategories>
+		<chemicalAddictionChance>0.0</chemicalAddictionChance>
+		<apparelTags Inherit="False">
+			<li>VathunClothing</li>
+			<li>VathunCivilian</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>200</min>
+			<max>200</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsMoney>
+			<min>50</min>
+			<max>50</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.02</techHediffsChance>
+		<initialResistanceRange>12~17</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>
