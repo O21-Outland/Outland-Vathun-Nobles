@@ -3,6 +3,7 @@
 	<name>Outland - Vathun Nobles</name>
 	<author>Neronix17</author>
 	<packageId>Neronix17.Outland.VathunNobles</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">Outland/ModIcon</modIconPath>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.4</li>
