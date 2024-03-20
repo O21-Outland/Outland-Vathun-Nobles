@@ -7,7 +7,6 @@
 			<xenotypeChances>
 				<Outland_Faun>999</Outland_Faun>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_VathunNobles</defaultFactionType>
 		<backstoryCategories>
