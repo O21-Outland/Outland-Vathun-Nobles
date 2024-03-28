@@ -23,7 +23,7 @@
 			<li>Hair_ReddishBrown</li>
 			<li>Hair_DarkBrown</li>
 			<li>Immunity_Weak</li>
-			<li>Outland_ArcaneAffinity_SmallIncrease</li>
+			<li MayRequire="Neronix17.Outland.MagesGuild">Outland_ArcaneAffinity_SmallIncrease</li>
 		</genes>
 	</XenotypeDef>
 
