@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandSculptureBase">
+		<defName>Outland_SculptureRabbit</defName>
+		<label>rabbit sculpture</label>
+		<description>A person-sized piece of material sculpted into an artistic form.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Outland/Vathun/Buildings/Statue_Rabbit</texPath>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<uiIconScale>0.3</uiIconScale>
+		<fillPercent>0.35</fillPercent>
+		<rotatable>false</rotatable>
+		<size>(1, 1)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>7</Mass>
+			<Beauty>100</Beauty>
+			<WorkToMake>9000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<designationCategory>Outland_Outland</designationCategory>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatDecoration</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandSculptureBase">
+		<defName>Outland_SculptureVortex</defName>
+		<label>vortex sculpture</label>
+		<description>A person-sized piece of material sculpted into an artistic form.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Outland/Vathun/Buildings/Statue_Vortex</texPath>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<uiIconScale>0.3</uiIconScale>
+		<fillPercent>0.35</fillPercent>
+		<rotatable>false</rotatable>
+		<size>(1, 1)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>7</Mass>
+			<Beauty>100</Beauty>
+			<WorkToMake>9000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<designationCategory>Outland_Outland</designationCategory>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatDecoration</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

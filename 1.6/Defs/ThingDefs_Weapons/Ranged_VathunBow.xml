@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBaseMakeableBow">
+		<defName>Outland_VathunBow</defName>
+		<label>vathun bow</label>
+		<description>A simple bow of vathun origin. It has thicker limbs than a typical bow does.</description>
+		<graphicData>
+			<texPath>Outland/Vathun/Weapons/VathunBow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<soundInteract>Bow_Recurve</soundInteract>
+		<costList>
+			<WoodLog>35</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.3</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.78</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>VathunRanged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>Greatbow</researchPrerequisite>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Outland_VathunArrow</defaultProjectile>
+				<warmupTime>1.45</warmupTime>
+				<range>25.9</range>
+				<soundCast>Bow_Recurve</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>limb</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBaseProjectileNeolithic">
+		<defName>Outland_VathunArrow</defName>
+		<label>vathun arrow</label>
+		<graphicData>
+			<texPath>Outland/Vathun/Projectiles/Proj_VathunArrow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>ArrowHighVelocity</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>56</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>

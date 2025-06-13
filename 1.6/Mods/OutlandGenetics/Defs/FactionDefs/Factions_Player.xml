@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>Outland_PlayerVathun</defName>
+		<label>vathun nobles</label>
+		<description>A small nobility.</description>
+		<isPlayer>true</isPlayer>
+		<pawnSingular>noble</pawnSingular>
+		<pawnsPlural>nobles</pawnsPlural>
+		<basicMemberKind>Outland_VathunPeasant_Player</basicMemberKind>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Faun>999</Outland_Faun>
+			</xenotypeChances>
+		</xenotypeSet>
+		<techLevel>Medieval</techLevel>
+		<backstoryCategories>
+			<li>Tribal</li>
+		</backstoryCategories>
+		<factionIconPath>Outland/Vathun/World/VathunBaseIcon</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionTribal</factionNameMaker>
+		<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+		<startingResearchTags>
+			<li>TribalStart</li>
+			<li>Outland_ResearchStart</li>
+		</startingResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<modExtensions>
+			<li Class="VFECore.FactionDefExtension">
+				<!-- TODO: Look into making some Vathun specific pack animal textures. Muffalo & Horses minimum. -->
+				<!-- <packAnimalTexNameSuffix>VathunPack</packAnimalTexNameSuffix> -->
+				<strangerInBlackReplacement>Outland_FaunInBlack</strangerInBlackReplacement>
+			</li>
+		</modExtensions>
+	</FactionDef>
+
+</Defs>

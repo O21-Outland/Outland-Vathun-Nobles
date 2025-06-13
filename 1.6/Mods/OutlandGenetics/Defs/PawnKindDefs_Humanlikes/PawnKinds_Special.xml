@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Vathun equivalent of man in black -->
+	<PawnKindDef ParentName="Vathun_Samurai">
+		<defName>Outland_FaunInBlack</defName>
+		<label>faun in black</label>
+		<labelPlural>faun in black</labelPlural>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+		<invNutrition>10.0</invNutrition>
+		<invFoodDef>RawRice</invFoodDef>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>6</choiceChance>
+					<!-- TODO: Replace with Outland Medicine. -->
+					<thingDef>MedicineHerbal</thingDef>
+					<countRange>5</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<itemQuality>Good</itemQuality>
+		<apparelRequired>
+			<li>Outland_VathunCuirass_Noble</li>
+			<li>Outland_VathunHelmet_Noble</li>
+			<li>Outland_VathunPauldrons_Noble</li>
+		</apparelRequired>
+		<apparelColor>(57,57,57)</apparelColor>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>14~25</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>
