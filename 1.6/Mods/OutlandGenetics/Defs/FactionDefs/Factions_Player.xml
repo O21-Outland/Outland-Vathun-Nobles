@@ -33,7 +33,7 @@
 			</thingDefs>
 		</apparelStuffFilter>
 		<modExtensions>
-			<li Class="VFECore.FactionDefExtension">
+			<li Class="VEF.Factions.FactionDefExtension">
 				<!-- TODO: Look into making some Vathun specific pack animal textures. Muffalo & Horses minimum. -->
 				<!-- <packAnimalTexNameSuffix>VathunPack</packAnimalTexNameSuffix> -->
 				<strangerInBlackReplacement>Outland_FaunInBlack</strangerInBlackReplacement>

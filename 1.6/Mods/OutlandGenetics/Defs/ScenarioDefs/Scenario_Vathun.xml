@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>Outland_VathunExpedition</defName>
 		<label>Vathun Expedition</label>
 		<description>You are part of an official expedition to set up a home in new lands, expanding the glory of the Vathun Empire. It's time you settled and got started.\n\nNote: Since you'll start poor and lack technology, this is a difficult scenario.</description>
