@@ -35,9 +35,10 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<designationCategory>Outland_Outland</designationCategory>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatDecoration</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Decoration</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -76,9 +77,10 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<designationCategory>Outland_Outland</designationCategory>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatDecoration</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Decoration</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
