@@ -32,9 +32,8 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<Outland_ComponentMedieval>2</Outland_ComponentMedieval>
-			<Steel>40</Steel>
-			<WoodLog>5</WoodLog>
+			<Steel>45</Steel>
+			<WoodLog>25</WoodLog>
 		</costList>
 		<verbs>
 			<li>
