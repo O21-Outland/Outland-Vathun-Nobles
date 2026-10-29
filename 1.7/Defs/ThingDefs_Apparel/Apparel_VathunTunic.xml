@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandApparelMakeableBase">
+		<defName>Outland_VathunTunic</defName>
+		<label>vathun tunic</label>
+		<description>A simple tunic commonly worn by people in the Vathun Nobility.</description>
+		<graphicData>
+			<texPath>Outland/Vathun/Apparel/Tunic/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2700</WorkToMake>
+			<Mass>0.3</Mass>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<costStuffCount>55</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Outland/Vathun/Apparel/Tunic/Apparel</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>VathunClothing</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33,1)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.9,0.9,0.9,1)</max>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(0.9,0.9,0.9,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

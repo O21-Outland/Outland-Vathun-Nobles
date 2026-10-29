@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp">
+		<defName>Outland_HeavyWarAxe</defName>
+		<label>heavy war axe</label>
+		<description>A heavy war axe commonly used by people in the Vathun Nobility.</description>
+		<graphicData>
+			<texPath>Outland/Vathun/Weapons/WarAxe_Heavy_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<randomStyleChance>0.85</randomStyleChance>
+		<randomStyle>
+			<li>
+				<styleDef>Outland_HeavyWarAxeB</styleDef>
+			</li>
+			<li>
+				<styleDef>Outland_HeavyWarAxeC</styleDef>
+			</li>
+			<li>
+				<styleDef>Outland_HeavyWarAxeD</styleDef>
+			</li>
+			<li>
+				<styleDef>Outland_HeavyWarAxeE</styleDef>
+			</li>
+			<li>
+				<styleDef>Outland_HeavyWarAxeF</styleDef>
+			</li>
+			<li>
+				<styleDef>Outland_HeavyWarAxeG</styleDef>
+			</li>
+		</randomStyle>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>VathunMeleeDecent</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.95</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingStyleDef>
+		<defName>Outland_HeavyWarAxeB</defName>
+		<graphicData>
+			<texPath>Outland/Vathun/Weapons/WarAxe_Heavy_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Outland_HeavyWarAxeC</defName>
+		<graphicData>
+			<texPath>Outland/Vathun/Weapons/WarAxe_Heavy_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Outland_HeavyWarAxeD</defName>
+		<graphicData>
+			<texPath>Outland/Vathun/Weapons/WarAxe_Heavy_D</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Outland_HeavyWarAxeE</defName>
+		<graphicData>
+			<texPath>Outland/Vathun/Weapons/WarAxe_Heavy_E</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Outland_HeavyWarAxeF</defName>
+		<graphicData>
+			<texPath>Outland/Vathun/Weapons/WarAxe_Heavy_F</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Outland_HeavyWarAxeG</defName>
+		<graphicData>
+			<texPath>Outland/Vathun/Weapons/WarAxe_Heavy_G</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
+</Defs>
